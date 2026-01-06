@@ -1,6 +1,6 @@
 # Disclaimer
 
-This project was created for educational purposes only and is intented to help users better understand the logic behinde RATs. We do not condone or support any malicious, or unethical use of this tool. Any misuse is soley the responsibility of the userm, and by using this project you agree to compply with all laws and regulations.
+This project was created for educational purposes only and is intended to help users better understand the logic behind a ~~RAT~~. We do not condone or support any malicious or unethical use of this tool. Any misuse is solely the responsibility of the user, and by using this project you agree to comply with all laws and regulations.
 
 ## Table of Contents
 - [Download](#download)
@@ -13,7 +13,7 @@ This project was created for educational purposes only and is intented to help u
 ## Download
 
 ### Git Clone
-git clone https://github.com/yourusername/yourrepo.git
+Git Clone https://github.com/yourusername/yourrepo.git
 
 ### Direct Download
 Download the source code from the GitHub repository.
