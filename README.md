@@ -13,18 +13,24 @@ This project was created for educational purposes only and is intended to help u
 ## Download
 
 ### Git Clone
-Git Clone https://github.com/yourusername/yourrepo.git
+Git Clone https://github.com/chrisu-sudo/cHl0aG9ucmF0cHJvamVjdA.git
 
 ### Direct Download
-Download the source code from the GitHub repository.
+Coming soon
 
 
 ## Features
-- Educational demonstration of RAT logic and workflow
-- Modular and readable project structure
-- GUI-based interface for easier interaction
-- Focused on learning, analysis, and experimentation
-- Intended for controlled and legal environments only
+    ``
+    Stealer
+    ---
+    Steal all Cr3ditCard (CC) infomation
+    Steal browser infomation such as: Autofills, Cookies, User:Pass, History
+    All compter info suck as: HWID, GPU, CPU, Memory, OS, Windows user name, Compter Name, Product Key.
+    IP infomation like: IP Address, Estimated Geo-location, Country, Timezone, Moblile Data Check, VPN Check, Reverse DNS, ISP
+    RAT - Prefix = !
+    ---
+    
+    ``
 
 ## Requirements
 - Python 3.9 or newer (PATH option **required**)
